@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>write</title>
+    </head>
+    <body>
+        <p>basic methods</p>
+        <P id="demo"></P>
+        <script>
+            var str="AmAzInG";
+            document.write(str.toUpperCase());
+            document.write("<br>")
+            document.write(str.toLowerCase());
+            document.write("<br>")
+            document.write(str.startsWith("i"));
+             document.write("<br>")
+
+             var colors=["yellow","red","blue"]
+             var test="";
+             for(var i=0;i<colors.length;i++){
+                test=test+colors[i]+"<br>"
+             }
+             document.getElementById("demo").innerHTML=test
+        
+            
+                    </script>
+    </body>
+</html>
