@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>list</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <p id="join"></p>
+        <p id="firstpop"></p>
+        <P id="secondpop"></P>
+        <p id="result"></p>
+        <script>
+            var cars=[ 
+        "bmw",
+        "tata",
+        "toyota",
+        "fiat",
+        
+            ]
+            function add(a,b){
+                return a+b
+            }
+            document.getElementById("demo").innerHTML=cars[2]
+            document.getElementById("join").innerHTML=cars.join("#")
+            document.getElementById("secondpop").innerHTML=cars.pop()
+            document.getElementById("firstpop").innerHTML=cars
+            document.getElementById("result").innerHTML=add(5,6)
+        </script>
+    </body>
+</html>
