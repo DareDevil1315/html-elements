@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>json</title>
+    </head>
+    <body>
+        <p id="result"></p>
+        <p id="demo"></p>
+        <script>
+            var x={name:"kush",age:"12",grade:7};
+            var y=JSON.stringify(x);
+            var z=JSON.parse(y);
+            document.getElementById("result").innerHTML=y.name
+            async function add(a,b){
+                let response=await a+b;
+                display (response);
+            }
+            function display(some){
+                document.getElementById("demo").innerHTML=some
+            }
+            add(5,10)
+            </script>        
+    </body>
+</html>
