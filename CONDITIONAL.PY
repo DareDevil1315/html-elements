@@ -23,3 +23,9 @@ else:
        print("num2 is greater than num1")
 if num1 ==num2:
     print("both are equal")
+
+num1=int(input("enter the number"))
+if num1%2==0:
+      print("number is even")
+else:
+      print("number is odd")
